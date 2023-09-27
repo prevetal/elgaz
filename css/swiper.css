@@ -1,0 +1,155 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #fff;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+
+    width: 46px;
+    height: 46px;
+    margin: 0;
+
+    transition: box-shadow .2s linear;
+    transform: none;
+
+    border-radius: 50%;
+    background: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-button-prev
+{
+    left: 0;
+
+    margin-left: auto;
+}
+
+.swiper-button-next
+{
+    right: 0;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    display: none;
+}
+
+
+.swiper-button-next .icon,
+.swiper-button-prev .icon
+{
+    display: block;
+
+    width: 20px;
+    height: 20px;
+}
+
+.swiper-button-prev .icon
+{
+    transform: rotate(180deg);
+}
+
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover
+{
+    box-shadow: 0 0 0 5px rgba(221, 219, 219, .90);
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom
+{
+    position: absolute;
+    bottom: -32px;
+    left: 0;
+
+    display: flex;
+
+    width: 100%;
+    height: 2px;
+
+    pointer-events: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.swiper-pagination-bullet
+{
+    display: block;
+
+    width: 30px;
+    height: 2px;
+
+    transition: background .2s linear;
+    pointer-events: auto;
+
+    opacity: 1;
+    border-radius: 0;
+    background: #202222;
+}
+
+.swiper-pagination-bullet + .swiper-pagination-bullet
+{
+    margin-left: 10px !important;
+}
+
+.swiper-pagination-bullet:hover,
+.swiper-pagination-bullet.active
+{
+    background: #797979;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet
+{
+    margin: 0;
+}
+
+
+.swiper-pagination-fraction
+{
+    position: relative;
+    bottom: 0;
+
+    width: auto;
+    height: auto;
+}
+
+
+.swiper-pagination-fraction .sep
+{
+    position: relative;
+    top: -1px;
+
+    display: inline-block;
+
+    width: 46px;
+    height: 1px;
+    margin: 0 16px;
+
+    vertical-align: middle;
+
+    background: currentColor;
+}

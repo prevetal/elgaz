@@ -1,0 +1,401 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 32px;
+
+        justify-content: center;
+    }
+
+
+    .pagination .total
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        width: auto;
+        height: 22px;
+    }
+
+
+    header .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    header .langs,
+    header .search_btn
+    {
+        margin-left: 20px;
+    }
+
+
+    header .menu
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        margin-bottom: 36px;
+        padding-top: 20px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit .exp
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .table_wrap
+    {
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .text_block table
+    {
+        min-width: 640px;
+    }
+
+    .text_block table td.small
+    {
+        width: 200px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .image
+    {
+        height: 280px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .category
+    {
+        padding: 20px;
+    }
+
+
+    .catalog .category .thumb
+    {
+        width: 100%;
+        height: 160px;
+        margin-bottom: 20px;
+    }
+
+
+    .catalog .category .info
+    {
+        width: 100%;
+    }
+
+
+    .catalog .category .name br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .info > .title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .name
+    {
+        font-size: 17px;
+    }
+
+
+    .products .product .btns
+    {
+        padding: 12px 20px;
+    }
+
+
+    .products .product .info
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 40px 20px;
+    }
+
+
+    .contacts_info .col
+    {
+        width: 100%;
+    }
+
+    .contacts_info .col + .col
+    {
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+        padding-bottom: 100%;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .cert
+    {
+        padding: 24px 40px 20px;
+    }
+
+
+
+    /*-------------------
+        Category info
+    -------------------*/
+    .category_info .sub_categories .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .category_info .sub_categories .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images .big .swiper-slide a
+    {
+        height: 360px;
+    }
+
+
+
+    /*------------------
+        Product data
+    ------------------*/
+    .product_data .features .label
+    {
+        padding: 11px 16px 4px;
+    }
+
+
+    .product_data .features .val
+    {
+        padding: 0 16px 11px;
+    }
+
+
+
+    /*-------------------
+        Peculiarities
+    -------------------*/
+    .peculiarities .row
+    {
+        margin-left: 0;
+    }
+
+    .peculiarities .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*--------------------------
+        Peculiarities slider
+    --------------------------*/
+    .peculiarities_slider .item .thumb
+    {
+        width: 100%;
+        min-height: 0;
+        padding-bottom: 100%;
+    }
+
+
+    .peculiarities_slider .item .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------
+        gallery
+    ------------*/
+    .gallery .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts .phone .icon
+    {
+        margin-right: 13px;
+    }
+
+
+    footer .contacts .email .icon
+    {
+        margin-right: 12px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 24px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+
+    #search_modal .close_btn
+    {
+        top: 20px;
+        right: 20px;
+    }
+
+
+    #search_modal form .input
+    {
+        font-size: 22px;
+    }
+}

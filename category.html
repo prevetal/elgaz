@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ed1c24">
+		<meta name="theme-color" content="#ed1c24">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.svg" alt="">
+						</a>
+
+						<nav class="menu row">
+							<div class="menu_item">
+								<a href="/">Główna</a>
+							</div>
+
+							<div class="menu_item active">
+								<a class="sub_link">Katalog</a>
+
+								<div class="sub_menu level1">
+									<div>
+										<a href="/" class="sub_link">
+											<span>Sahara</span>
+											<span class="icon"></span>
+										</a>
+
+										<div class="sub_menu level2">
+											<div><a href="/">Urządzenia gazowe</a></div>
+											<div><a href="/">Sprzęt AGD</a></div>
+										</div>
+									</div>
+
+									<div>
+										<a href="/" class="sub_link">
+											<span>TMC</span>
+											<span class="icon"></span>
+										</a>
+
+										<div class="sub_menu level2">
+											<div><a href="/">Urządzenia gazowe</a></div>
+											<div><a href="/">Sprzęt AGD</a></div>
+										</div>
+									</div>
+
+									<div>
+										<a href="/" class="sub_link">
+											<span>Kemper</span>
+											<span class="icon"></span>
+										</a>
+
+										<div class="sub_menu level2">
+											<div><a href="/">Urządzenia gazowe</a></div>
+											<div><a href="/">Sprzęt AGD</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">O firmie</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Kontakt</a>
+							</div>
+
+							<div class="roller"></div>
+						</nav>
+
+						<div class="phone">
+							<a href="tel:+48123334340">
+								<span>+48 12 333 43 40</span>
+
+								<div class="icon">
+									<svg><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								</div>
+							</a>
+						</div>
+
+						<div class="langs modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#langs_modal">
+								<span>Pl</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="langs_modal">
+								<div><button class="btn">En</button></div>
+							</div>
+						</div>
+
+						<button class="search_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							<span>Szukaj</span>
+						</button>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</header>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Główna</a>
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+							<span class="current">Sahara</span>
+						</div>
+
+						<h1 class="page_title">Sahara –najlepszy irlandzki producent grilli gazowych</h1>
+
+						<div class="page_desc text_block">
+							<p>Sahara –najlepszy irlandzki producent grilli gazowych o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki</p>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="category_info block">
+					<div class="cont">
+						<div class="sub_categories">
+							<button class="spoler_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+								<span>Wybierz kategorię</span>
+							</button>
+
+							<div class="data">
+								<div class="row">
+									<div class="col">
+										<div class="brand">
+											<a class="active">Sahara</a>
+										</div>
+
+										<div class="items">
+											<div><a href="/">Grille gazowe</a></div>
+											<div><a class="active">Ogrzewacze gazowe</a></div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="brand">
+											<a href="/">TMC</a>
+										</div>
+
+										<div class="items">
+											<div><a href="/">Maszyny do pelletu</a></div>
+											<div><a href="/">Grzejniki i inne</a></div>
+										</div>
+									</div>
+
+									<div class="col">
+										<div class="brand">
+											<a href="/">Kemper</a>
+										</div>
+
+										<div class="items">
+											<div><a href="/">Urządzenia gazowe</a></div>
+											<div><a href="/">Sprzęt AGD</a></div>
+										</div>
+									</div>
+								</div>
+
+								<button class="hide_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+								</button>
+							</div>
+						</div>
+
+
+						<div class="products">
+							<div class="row">
+								<div class="product">
+									<div class="sticker">nowość</div>
+
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb1.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Grille gazow Sahara S350</a>
+										</div>
+
+										<div class="tags"><a href="/">Sahara</a>, <a href="/">Grille gazowe</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb2.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Grill gazowy Sahara A450 performer z 4 palnikami</a>
+										</div>
+
+										<div class="tags"><a href="/"></a>Sahara</a>, <a href="/">Grille gazowe</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb3.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Piec na pellet TMC 900</a>
+										</div>
+
+										<div class="tags"><a href="/">TMC</a>, <a href="/">Maszyny do pelletu</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb4.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Gazowy piec do pizzy Z12</a>
+										</div>
+
+										<div class="tags"><a href="/"></a>Sahara</a>, <a href="/">Piece do pizzy</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb5.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Grill gazowy z 2 palnikami i szybkim montażem</a>
+										</div>
+
+										<div class="tags"><a href="/">Sahara</a>, <a href="/">Grille gazowe</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb6.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">TMC 850 Plat</a>
+										</div>
+
+										<div class="tags"><a href="/"></a>TMC</a>, <a href="/">Maszyny do pelletu</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb4.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Gazowy piec do pizzy Z12</a>
+										</div>
+
+										<div class="tags"><a href="/">Sahara</a>, <a href="/">Piece do pizzy</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb5.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">Grill gazowy z 2 palnikami i szybkim montażem</a>
+										</div>
+
+										<div class="tags"><a href="/">Sahara</a>, <a href="/">Grille gazowe</a></div>
+									</div>
+								</div>
+
+								<div class="product">
+									<div class="thumb">
+										<a href="/">
+											<img data-src="images/tmp/product_thumb6.png" alt="" class="lazyload">
+										</a>
+
+										<div class="btns">
+											<button class="btn wholesale_buy_btn modal_btn" data-modal="wholesale_buy_modal">Kupić hurtowo</button>
+
+											<button class="btn buy_btn">Kupić</button>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="name">
+											<a href="/">TMC 850 Plat</a>
+										</div>
+
+										<div class="tags"><a href="/">TMC</a>, <a href="/">Maszyny do pelletu</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="pagination">
+							<a href="/" class="prev">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+							</a>
+
+							<a class="active">1</a>
+							<a href="/">2</a>
+							<a href="/">3</a>
+
+							<a href="/" class="next">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+							</a>
+
+							<div class="total">Wyświetlanie 12–24 z 24 wyników</div>
+						</div>
+
+						<div class="text_block bottom_text">
+							<h1>H1 - Sahara –najlepszy irlandzki producent grilli gazowych</h1>
+
+							<h2>H2 - Sahara –najlepszy irlandzki producent grilli gazowych</h2>
+
+							<h3>H3 - Sahara –najlepszy irlandzki producent grilli gazowych</h3>
+
+							<h4>H4 - Sahara –najlepszy irlandzki producent grilli gazowych</h4>
+
+							<h5>H5 - Sahara –najlepszy irlandzki producent grilli gazowych</h5>
+
+							<p>Sahara – <a href="/">Link style</a> producent <a href="/">Hover Link Style</a> o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest wiodącym dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki. Sahara –najlepszy irlandzki producent grilli gazowych o wysokiej jakości oraz urządzeń grzewczych.</p>
+
+							<ul>
+								<li>Duże okienko wbudowane w okap – z łatwością kontroluj gotowanie na każdym etapie</li>
+
+								<li>Wysuwany ruszt do podgrzewania – utrzymuje ciepło potraw po ugotowaniu</li>
+
+								<li>System wkładów grillowych Sahara® i żeliwna płyta grillowa – łatwe w czyszczeniu i trwałe</li>
+
+								<li>Wysuwany ruszt do podgrzewania – utrzymuje ciepło potraw po ugotowaniu</li>
+							</ul>
+
+							<ol>
+								<li>Duże okienko wbudowane w okap – z łatwością kontroluj gotowanie na każdym etapie</li>
+
+								<li>Wys uwany ruszt do podgrzewania – utrzymuje ciepło potraw po ugotowaniu</li>
+
+								<li>Duże okienko wbudowane w okap – z łatwością kontroluj gotowanie na każdym etapie</li>
+
+								<li>Wysuwany ruszt do podgrzewania – utrzymuje ciepło potraw po ugotowaniu</li>
+							</ol>
+
+							<div class="message">Sahara – <a href="/">Link style</a> producent Hover Link Style o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest wiodącym dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki. Sahara –najlepszy irlandzki producent <b>grilli gazowych</b> o wysokiej jakości oraz urządzeń grzewczych.</div>
+
+							<blockquote>Sahara – Link style producent Hover Link Style o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest wiodącym dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki. Sahara –najlepszy irlandzki producent <b>grilli gazowych</b> o wysokiej jakości oraz urządzeń grzewczych.</blockquote>
+
+							<div class="table_wrap">
+								<table>
+									<thead>
+										<tr>
+											<th>Kolumna 1</th>
+											<th>Kolumna 2</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="small"><b>Rozmiar grilla do gotowania</b></td>
+											<td>490 (gł.) x 660 (szer.) mm</td>
+										</tr>
+
+										<tr>
+											<td class="small"><b>Rodzaj gazu</b></td>
+											<td>Propan (w zestawie wąż gazowy i reduktor).</td>
+										</tr>
+
+										<tr>
+											<td class="small"><b>Palnik</b></td>
+											<td>Trzy wysokoenergetyczne palniki ze stali nierdzewnej</td>
+										</tr>
+
+										<tr>
+											<td class="small"><b>Rodzaj gazu</b></td>
+											<td>Propan (w zestawie wąż gazowy i reduktor).</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<h3>Akordeon:</h3>
+
+							<div class="accordion">
+								<div class="accordion_item active">
+									<div class="head">
+										<div class="icon"></div>
+										<div class="title">Co sprzedajemy?</div>
+									</div>
+
+									<div class="data" style="display: block;">
+										<p>Najlepsze światowe wyposażenie do pracy ze sprężonym gazem, urządzenia grzewcze i grille gazowe. Wszystkie nasze towary zostały certyfikowane zgodnie z normami europejskimi. Pracujemy tylko z oryginalnymi produktami.</p>
+									</div>
+								</div>
+
+								<div class="accordion_item">
+									<div class="head">
+										<div class="icon"></div>
+										<div class="title">Kim jesteśmy?</div>
+									</div>
+
+									<div class="data">
+										<p>Najlepsze światowe wyposażenie do pracy ze sprężonym gazem, urządzenia grzewcze i grille gazowe. Wszystkie nasze towary zostały certyfikowane zgodnie z normami europejskimi. Pracujemy tylko z oryginalnymi produktami.</p>
+									</div>
+								</div>
+
+								<div class="accordion_item">
+									<div class="head">
+										<div class="icon"></div>
+										<div class="title">Dlaczego my?</div>
+									</div>
+
+									<div class="data">
+										<p>Najlepsze światowe wyposażenie do pracy ze sprężonym gazem, urządzenia grzewcze i grille gazowe. Wszystkie nasze towary zostały certyfikowane zgodnie z normami europejskimi. Pracujemy tylko z oryginalnymi produktami.</p>
+									</div>
+								</div>
+							</div>
+
+							<p>Sahara –najlepszy irlandzki producent <b>grilli gazowych</b> o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest <a href="/">wiodącym</a> dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki.</p>
+
+							<img src="images/tmp/text_img.jpg" alt="" class="left">
+
+							<h3>Obecnie nasza teczka składa się z CZTERECH marek światowych:</h3>
+
+							<p>Sahara –najlepszy irlandzki producent grilli gazowych o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest <a href="/">wiodącym</a> dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki. Sahara –najlepszy irlandzki producent grilli gazowych o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest <a href="/">wiodącym</a> dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki.</p>
+							<div class="clear"></div>
+
+							<div class="cols">
+								<div class="col">
+									<h3>Obecnie nasza teczka składa się z CZTERECH marek</h3>
+
+									<p>Sahara –najlepszy irlandzki producent <b>grilli gazowych</b> o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki.</p>
+
+									<img src="images/tmp/text_img2.jpg" alt="">
+								</div>
+
+								<div class="col">
+									<h3>Obecnie nasza teczka składa się z CZTERECH marek</h3>
+
+									<p>Sahara –najlepszy irlandzki producent <b>grilli gazowych</b> o wysokiej jakości oraz urządzeń grzewczych. ELGAZ jest dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych. Fascynuje nas to, co robimy, zawrze dążymy do udoskonalenia naszej pracy, aby nasi Klienci osiągnęli najlepsze wyniki.</p>
+
+									<img src="images/tmp/text_img2.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont">
+					<div class="row">
+						<div class="col">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="text">ELGAZ - jest wiodącym dystrybutorem światowych producentów wyposażenia do pracy ze sprężonym gazem, urządzeń grzewczych i grilli gazowych.</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Katalog</div>
+
+							<div class="items">
+								<div><a href="/">Grille gazowe Sahara </a></div>
+								<div><a href="/">Ogrzewacze gazowe Sahara </a></div>
+								<div><a href="/">Maszyny do pelletu TMC</a></div>
+								<div><a href="/">Grzejniki i nie tylko TMC</a></div>
+								<div><a href="/">Urządzenia gazowe Kemper</a></div>
+								<div><a href="/">Sprzęt AGD Kemper</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">Elgaz</div>
+
+							<div class="items">
+								<div><a href="/">O firmie</a></div>
+								<div><a href="/">Kontakt</a></div>
+								<div><a href="/">Gdzie mogę kupić</a></div>
+								<div><a href="/">Certyfikaty</a></div>
+							</div>
+						</div>
+
+						<div class="contacts">
+							<div class="title">Kontakt</div>
+
+							<div class="phone">
+								<a href="tel:+48123334340">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<span>+48 12 333 43 40</span>
+								</a>
+							</div>
+
+							<div class="phone">
+								<a href="tel:+48123334341">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+									<span>+48 12 333 43 41</span>
+								</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@elgaz.pl">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>info@elgaz.pl</span>
+								</a>
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_fb"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_instagram"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="bottom">
+						<div class="copyright">&copy; 2023 ELGAZ.  Wszelkie prawa zastrzeżone</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Privacy & Cookie Policy</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="cookie_policy">
+				<button class="close_btn">
+					<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+				</button>
+
+				Ta strona internetowa przechowuje pliki cookies. <a href="/">Cookie Policy</a>
+			</div>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section id="search_modal">
+			<button class="close_btn">
+				<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+			</button>
+
+			<div class="data">
+				<form action="">
+					<input type="text" name="" value="" class="input">
+
+					<button type="submit" class="submit_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+					</button>
+
+					<div class="tips">
+						<div><a href="/">Sahara S350 Gas Barbecue</a></div>
+						<div><a href="/">Sahara S350 Gas Barbecue</a></div>
+						<div><a href="/">Sahara S350 Gas Barbecue</a></div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
+		<section class="modal" id="wholesale_buy_modal">
+			<div class="modal_title">Kupić hurtowo</div>
+
+			<form action="" class="form">
+				<div class="columns">
+					<div class="line">
+						<div class="label">Imię (wymagane)</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input error" placeholder="Twoje imię">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Firma</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Nazwa Twojej firmy">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Telefon (wymagane)</div>
+
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="Twój numer telefonu">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Email (wymagane)</div>
+
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="Twój email">
+						</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="label">Detale</div>
+
+					<div class="field">
+						<textarea name="" placeholder="Twój email"></textarea>
+					</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<label class="checkbox">
+							<input type="checkbox" name="agree">
+							<div class="check"></div>
+							<div>Nie mam nic przeciwko otrzymywaniu e-maili i śledzeniu tej aktywności, aby poprawić moje doświadczenie.</div>
+						</label>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">
+						<span>Wysłać prośbę</span>
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_hor"></use></svg>
+					</button>
+
+					<div class="exp">! Co najmniej jedno pole zawiera błąd. Sprawdź i spróbuj ponownie.</div>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
