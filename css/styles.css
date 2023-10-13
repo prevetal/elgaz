@@ -4248,6 +4248,23 @@ header .mob_menu_btn.active span:after
     left: 0;
 
     width: 90px;
+    height: 100%;
+}
+
+
+.product_info .images .thumbs .swiper
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.product_info .images .thumbs .swiper-slide
+{
+    height: 90px;
 }
 
 

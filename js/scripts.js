@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				1430: {
 					spaceBetween: 30
 				}
-			},
+			}
 		})
 
 		new Swiper('.product_info .big .swiper', {

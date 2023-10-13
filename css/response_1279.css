@@ -679,6 +679,12 @@
     }
 
 
+    .product_info .images .thumbs .swiper-slide
+    {
+        height: 80px;
+    }
+
+
     .product_info .images .sticker
     {
         font-size: 16px;
